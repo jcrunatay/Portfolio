@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/f8758f5827.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reponsiveness.css">
+    <script src="script.js" defer ></script>
+</head>
+<body>
+    <div class="whole_home_page" id="whole_home_page">
+    <header class="container-fluid ">
+        <nav class="nav_links">
+            <img src="./image/logo.png" alt="logo" class="logo">
+            <ul  class="nav_ul">
+                    <li class="nav_item "><i class="fa-solid fa-address-card " ></i><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item "><i class="fa-solid fa-diagram-project "></i><a href="#projects" class="nav_link">Projects</a></li>
+                    <li class="nav_item "><i class="fa-solid fa-envelope "></i><a href="#contact" class="nav_link">Contact</a></li>
+                    <li class="resume-border nav_item "><i class="fa-solid fa-file "></i><a href="./document/Resume.pdf" target="_blank" class="nav_link resume_link">Resume</a></li>
+            </ul>
+            <div class="hidden_menu">
+                <button class="hidden_menu_button"><i class="fa-solid fa-bars fa-xl"></i></button>
+            </div>
+        </nav>  
+        <div class="bar_menu_wrapper">
+            <div class="bar_menu">
+                <button class="xmark"><i class="fa-solid fa-xmark fa-xl"></i></button>
+                <ul>
+                    <li class="bar_menu_item "><i class="fa-solid fa-address-card bar_menu_item_icon" ></i><a href="#about" class="bar_menu_item_link">About</a></li>
+                    <li class="bar_menu_item "><i class="fa-solid fa-diagram-project bar_menu_item_icon"></i><a href="#projects" class="bar_menu_item_link">Projects</a></li>
+                    <li class="bar_menu_item "><i class="fa-solid fa-envelope bar_menu_item_icon"></i><a href="#contact" class="bar_menu_item_link">Contact</a></li>
+                    <li class="resume-border bar_menu_item "><i class="fa-solid fa-file bar_menu_item_icon"></i><a href="./document/Resume.pdf" target="_blank" class="bar_menu_item_link resume_link">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- LOADER -->
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+        </div>
+
+        <!-- LEFT ARROW DIV -->
+
+        <div class="left_arrow_div">
+            <p class="arrow_email"> <a href="mailto:juyanrunatay@gmail.com" class="email_link">juyanrunatay@gmail.com</a></p>
+            <img src="/image/line2.png" alt="" class="arrow_up">
+        </div>
+
+        <!-- SOCIAL ICONS -->
+        <div class="right_icons_div">
+            <ul class="social_icons">
+                <li class="social_icon"><a href="https://github.com/jcrunatay" class="icon_link icon_link1"><i class="fa-brands fa-square-github"></i></a></li>
+                <li class="social_icon"><a href="https://www.facebook.com/jcrunatay" class="icon_link icon_link2"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li class="social_icon"><a href="https://www.linkedin.com/in/juyan-runatay-800171251/" class="icon_link icon_link3"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        
+        <!-- INTRO -->
+        <section class="intro container px-sm-5">
+            <h1 class="first_heading">Hi <span><img class="hand_wave" src="/image/hand.png" alt=""></span>, I am </h1>
+            <p class="intro_text-1">Juyan Runatay</p>
+            <p class="intro_text-2">I love to build things for the web.</p>
+            <p class="intro_text-3">I am a programmer analyst studying in Herzing 
+            College Montreal and I am currently looking for front-end developer internship
+            and hoping to further my knowledge about designing and building websites.</p>
+            <button class="intro_button"><a href="#">More About Me</a></button>
+        </section>
+        </div>
+
+        <!-- ABOUT ME -->
+        <section class="container section_container px-sm-3" id="about">
+            <div class="about_heading">
+                <p class="about_char hidden--animation">A</p>
+                <p class="about_char hidden--animation">b</p>
+                <p class="about_char hidden--animation">o</p>
+                <p class="about_char hidden--animation">u</p>
+                <p class="about_char hidden--animation">t</p>
+                <p class="about_char hidden--animation">M</p>
+                <p class="about_char hidden--animation">e</p>
+            </div>
+            <div class="divider hidden-divider"></div>
+            <div class="about_content row justify-content-center hidden--animation">
+                <div class="about_img_wrapper col-md-6">
+                    <div class="zoom_div">
+                        <img src="./image/about_img.png" alt="Profile Picture" class="about_img">
+                    </div>
+                </div>
+                <div class="about_text_wrapper col-md-6">
+                    <p class="description"> Hi! My name is Juyan and I am currently studying as programmer analyst
+                        at Herzing College Montreal. All my interest in programming started when I tried to do this Responsive Web Design in freecodecamp and i really enjoyed it .I immediately got  motivated to go deeper in programming and it’s
+                        absolutely a different feeling for me to be in this kind of field than being in a management program which is i used to be at. </p>
+                    <p><i class="fa-solid fa-circle"></i> Technologies learned in the whole course:</p>
+                    <div class="row">
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Html</p>
+                        </div>
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Css</p>
+                        </div>
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Php</p>
+                        </div>
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Sql</p>
+                        </div>
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Vb</p>
+                        </div>
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Java</p>
+                        </div>
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Javascript</p>
+                        </div>
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Bootstrap</p>
+                        </div>
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Jquery</p>
+                        </div>
+                    </div>
+                    <p><i class="fa-solid fa-circle"></i>  Technologies that I'm currently trying to master and will try to learn in the future:</p>
+                    <div class="row">
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Mastering Css</p>
+                        </div>
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Mastering Javascript</p>
+                        </div>
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Mastering Bootstrap</p>
+                        </div>
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Will Learn React</p>
+                        </div>
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Will Learn Git</p>
+                        </div>
+                        <div class="col-auto">
+                            <p><i class="fa-solid fa-caret-right"></i> Will Learn Github</p>
+                        </div>
+                </div>
+            </div>
+        </section> 
+        <!-- PROJECTS -->
+        <section id="projects" class="container section_container px-sm-3">
+                <div class="project_heading">
+                    <p class="project_char hidden--animation">P</p>
+                    <p class="project_char hidden--animation">r</p>
+                    <p class="project_char hidden--animation">o</p>
+                    <p class="project_char hidden--animation">j</p>
+                    <p class="project_char hidden--animation">e</p>
+                    <p class="project_char hidden--animation">c</p>
+                    <p class="project_char hidden--animation">t</p>
+                    <p class="project_char hidden--animation">s</p>
+                </div>
+                <div class="divider hidden-divider"></div>
+                <div class="projects row justify-content-center hidden--normal ">
+                    <div class="project_item col-11 col-sm-9  col-md-5  col-xl-4 col-xxl-3 pi">
+                        <a href="https://5288873.herzingmontreal.ca/Block3_Module5_proj/" target="_blank">
+                            <img src="./projects/project1.png" alt="">
+                            <div class="project_text">
+                                <h3 class="project_title">Web Content Management System</h3>
+                                <p class="project_description">The goal of the project is to develop a content management system (CMS), in order to improve the way 
+                                    the content is stored, generated, distributed, and organized.</p>
+                                <ul class="project_resource">
+                                    <li>PHP</li>
+                                    <li>MYSQL</li>
+                                    <li>BOOTSTRAP</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project_item col-11  col-sm-9  col-md-5  col-xl-4 col-xxl-3 pi" >
+                        <a href="https://jcrunatay.github.io/Public_feedback/" target="_blank">
+                            <img src="./projects/project2.png" alt="">
+                            <div class="project_text">
+                                <h3 class="project_title">Give Feedback Publicly</h3>
+                                <p class="project_description">Users can give a feedback to any company by using hashtag.</p>
+                                <ul class="project_resource">
+                                    <li>JAVASCRIPT</li>
+                                    <li>BOOTSTRAP</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project_item col-11  col-sm-9 col-md-5  col-xl-4 col-xxl-3 pi" >
+                        <a href="https://5288873.herzingmontreal.ca/Block3_Module4_lab2/lab2.php" target="_blank">
+                            <img src="./projects/project3.png" alt="">
+                            <div class="project_text">
+                                <h3 class="project_title">Mini-Chat</h3>
+                                <p class="project_description">Users can register and join public group chat.</p>
+                                <ul class="project_resource">                                
+                                    <li>PHP</li>
+                                    <li>JAVASCRIPT</li>
+                                    <li>MYSQL</li>
+                                </ul>
+                            </div>
+                        </a>    
+                    </div>
+                    <div class="project_item col-11  col-sm-9 col-md-5  col-xl-4 col-xxl-3 pi" >
+                        <a href="https://5288873.herzingmontreal.ca/Block3_Module2_proj/homepage.html" target="_blank">
+                        <img src="./projects/project4.png" alt="">
+                            <div class="project_text">
+                                <h3 class="project_title">Improve Website (https://www.art.yale.edu/)</h3>
+                                <p class="project_description">Improve a chosen website using jquery plugins and bootsrap.</p>
+                                <ul class="project_resource">
+                                    <li>JQUERY</li>
+                                    <li>BOOTSTRAP</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project_item col-11  col-sm-9 col-md-5  col-xl-4 col-xxl-3 pi"  >
+                        <a href="https://5288873.herzingmontreal.ca/Block3_Module4_proj/" target="_blank">
+                            <img  src="./projects/project5.png" alt="">
+                            <div class="project_text">
+                                <h3 class="project_title">Punch Bag</h3>
+                                <p class="project_description">User can select their own character or can add new character and start the game.</p>
+                                <ul class="project_resource">
+                                    <li>PHP</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project_item col-11  col-sm-9 col-md-5  col-xl-4 col-xxl-3 pi">
+                        <a href="https://www.freecodecamp.org/certification/fcc994b767b-a490-47fe-90c8-94e8f3a8e1b1/javascript-algorithms-and-data-structures" target="">
+                            <img src="./projects/project6.png" alt="">
+                            <div class="project_text">
+                                <h3 class="project_title">Js Algorithms and Data Structures Projects</h3>
+                                <p class="project_description"> Freecodecamp projects:Palindrom Checker, Roman Numeral Converter, Caesars Cipher,
+                                    Telephone Number Validator, Cash Register.
+                                </p>
+                                <ul class="project_resource">
+                                    <li>JAVASCRIPT</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+        </section>
+        <section id="contact" class="container section_container px-sm-3">
+            <div class="contact_heading">
+                <p class="contact_char hidden--animation">C</p>
+                <p class="contact_char hidden--animation">o</p>
+                <p class="contact_char hidden--animation">n</p>
+                <p class="contact_char hidden--animation">t</p>
+                <p class="contact_char hidden--animation">a</p>
+                <p class="contact_char hidden--animation">c</p>
+                <p class="contact_char hidden--animation">t</p>
+            </div>
+            <div class="divider hidden-divider"></div>
+            <div class="contact_text hidden--animation">
+                <h3>Get In Touch</h3>
+                <p>I'm still currently learning some other front-end development technologies to further my skills in web development.</p>
+                <br>
+                <p>If you have any question, I would be happy to discuss it with you <span><img class="contact_icon" src="./image/unnamed-removebg-preview.png" alt=""></span></p>
+                <button class="intro_button"><a href="mailto:juyanrunatay@gmail.com">Say Hello</a></button>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="container">
+        <ul class="social_icons ">
+            <li class="social_icon_item"><a href="#" class="icon_link icon_link1"><i class="fa-brands fa-square-github"></i></i></a></li>
+            <li class="social_icon_item"><a href="#" class="icon_link icon_link2"><i class="fa-brands fa-square-facebook"></i></i></a></li>
+            <li class="social_icon_item"><a href="#" class="icon_link icon_link3"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+        <p>Designed & Built by: Juyan Criston Runatay</p>
+    </footer>   
+</body>
+</html>

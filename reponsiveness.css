@@ -1,0 +1,254 @@
+
+@media screen and (max-width: 1399px) and (min-width: 768px) {
+    .project_item:nth-child(1),
+    .project_item:nth-child(3),
+    .project_item:nth-child(5){
+        transform: translateX(-300px);
+        animation-delay: 2.7s;
+    }
+
+    .project_item:nth-child(2),
+    .project_item:nth-child(4),
+    .project_item:nth-child(6){
+        transform: translateX(-600px);
+        animation-delay: 2.2s;
+    }
+
+    footer {
+        width: 90% !important;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .section_container{
+        padding-left: 70px !important;
+    }
+    
+    main .intro{
+        padding-left:100px !important;
+    }
+    
+
+    main .intro .intro_text-1,.intro_text-2{
+        font-size: 45px;
+    }
+
+    footer{
+        width: 85%!important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    
+    main .intro .intro_text-1,.intro_text-2{
+        font-size: 45px;
+    }
+
+    footer{
+        width: 80%!important;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    main .intro{
+        padding:20px !important;
+/*         border: 1px solid blue;
+ */    }
+
+    .section_container{
+        padding-left: 20px ! important;
+        padding-right: 20px ! important;
+
+    }
+
+    main .intro .intro_text-1,.intro_text-2{
+        font-size: 40px;
+    }
+
+    main .intro .intro_text-3{
+        width: 100%;
+    }
+
+    main .left_arrow_div, main .right_icons_div,
+    header .nav_links ul {
+        display: none;
+    }
+
+    header .nav_links .hidden_menu{
+        display: block;
+    }
+
+    header .nav_links .hidden_menu:hover{
+        color: var(--primaryColor);
+    }
+
+    footer{
+        border-top: 1px solid var(--primaryColor_0pa7);
+        width: 100% !important;
+    }
+
+    footer .social_icons{
+        display: block;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 767px){
+    
+    #projects .project_item{
+        transform: translateX(-300px);
+        animation-delay: 0.2s;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 575px){
+    main .intro, .section_container{
+/*         border: 1px solid green;
+ */        padding-left:  20px;
+        padding-right: 5px;
+    }
+
+    main .intro .first_heading{
+        font-size: 25px;
+        padding-right: 5px;
+
+    }
+
+    main .intro .intro_text-1,.intro_text-2{
+        padding-right: 5px;
+        font-size: 30px;
+    }
+
+    main .intro .intro_text-3{
+        width: 100%;
+        padding-right: 5px;
+    }
+
+    #about .about_heading p,#projects .project_heading p,#contact .contact_heading p{
+        font-size: 28px;
+    }
+
+    .project_item{
+        height: 35vh;
+    }
+
+    #contact h3{
+        font-size: 36px;
+    }
+
+    footer p{
+        font-size: 13px;
+    }
+    main .intro .intro_text-3,
+    .about_text_wrapper .row .col-auto p,
+    #about .about_content .about_text_wrapper .description,
+    #contact .contact_text p{
+        font-size: 0.9rem;
+    }
+
+    #contact p  span .contact_icon{
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        margin-left: 10px;
+    }
+
+    #about .about_img_wrapper{
+        max-height: 350px;
+    }
+
+    #about .about_img_wrapper img{
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    main .intro,.section_container{
+        padding-right: 5px;
+    }
+
+    main .intro .first_heading{
+        font-size: 22px;
+        padding-right: 5px;
+
+    }
+
+    main .intro .intro_text-1,.intro_text-2{
+        padding-right: 5px;
+        font-size: 25px;
+    }
+
+    main .intro .intro_text-3{
+        width: 100%;
+        padding-right: 5px;
+    }
+
+    #about .about_heading p,#projects .project_heading p,#contact .contact_heading p{
+        font-size: 26px;
+    }
+
+    .project_item{
+        height: 35vh;
+    }
+
+    #contact h3{
+        font-size: 26px;
+    }
+
+    footer p{
+        font-size: 13px;
+    }
+    main .intro .intro_text-3,
+    .about_text_wrapper .row .col-auto p,
+    #about .about_content .about_text_wrapper .description,
+    #contact .contact_text p{
+        font-size: 0.8rem;
+    }
+
+    #projects .project_item{
+        margin: unset !important;
+    }
+
+    #contact p  span .contact_icon{
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        margin-left: 10px;
+    }
+
+    #about .about_img_wrapper{
+        max-height: 300px;
+        padding: 30px;
+    }
+
+    #about .about_img_wrapper img{
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+@media only screen and (max-width: 290px){
+    
+    #about .about_img_wrapper{
+        max-height: 200px;
+        padding: 30px;
+    }
+
+    #about .about_img_wrapper img{
+        height: 100px;
+        width: 100px;
+    }
+}
