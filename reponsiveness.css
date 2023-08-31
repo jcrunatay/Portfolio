@@ -118,6 +118,9 @@
  */        padding-left:  20px;
         padding-right: 5px;
     }
+    main .intro{
+        margin-top: 50px;
+    }
 
     main .intro .first_heading{
         font-size: 25px;
