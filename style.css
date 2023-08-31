@@ -15,6 +15,7 @@ html {
   --primaryColor_0pa7: rgb(211, 184, 165, 0.7);
 }
 
+
 body {
   background-image: url("./image/bg.png");
   background-repeat: no-repeat;
@@ -67,8 +68,8 @@ header .nav_links .logo {
   animation-delay: 5s;
   opacity: 0;
   cursor: pointer;
-  /*     opacity: 1;
- */
+  /* opacity: 1; */
+
 }
 
 header .nav_links ul {
@@ -88,8 +89,8 @@ header .nav_links ul .nav_item {
   animation: fadeDown 0.5s forwards;
   animation-delay: 5s;
   opacity: 0;
-  /*     opacity: 1;
- */
+  /* opacity: 1; */
+
 }
 
 .nav_links .resume-border {
@@ -110,6 +111,7 @@ header .nav_links .hidden_menu {
   animation: fadeDown 0.5s forwards;
   animation-delay: 5s;
   opacity: 0;
+  /* opacity: 1; */
 }
 
 header .nav_links .hidden_menu button {
@@ -275,8 +277,8 @@ header .display--yes {
   border-bottom: 3px solid var(--primaryColor);
   border-radius: 50%;
   animation: loader 6s linear 0.2s forwards;
-  /*     opacity: 0;
- */
+  /* opacity: 0; */
+
 }
 
 @keyframes loader {
@@ -312,14 +314,14 @@ main .intro {
   opacity: 0;
   padding-left: 170px;
   padding-right: 50px;
-  /*     opacity: 1;
- */
+  /* opacity: 1; */
+
 }
 
 main .intro .first_heading {
   color: var(--primaryColor_0pa7);
   font-size: 36px;
-  /* border: 1px solid green;*/
+  
 }
 
 main .intro .first_heading .hand_wave {
@@ -332,7 +334,7 @@ main .intro .intro_text-1,
   color: var(--primaryColor);
   font-size: 55px;
   font-weight: bold;
-  /*border: 1px solid green;*/
+
 }
 
 main .intro .intro_text-3 {
@@ -340,7 +342,7 @@ main .intro .intro_text-3 {
   width: 500px;
   height: auto;
   font-size: 1rem;
-  /* border: 1px solid green;*/
+ 
 }
 
 /*
@@ -376,6 +378,7 @@ main .intro_button:hover {
   opacity: 0;
   position: fixed;
   z-index: 99;
+  /* opacity: 1; */
 }
 
 .left_arrow_div .arrow_up {
@@ -447,14 +450,17 @@ main .intro_button:hover {
 .social_icon:nth-child(1) {
   /*animation: name duration timing-function delay iteration-count direction fill-mode*/
   animation: slideUp 1s linear 6.5s forwards;
+  /* opacity: 1; */
 }
 
 .social_icon:nth-child(2) {
   animation: slideUp 1s linear 7s forwards;
+  /* opacity: 1; */
 }
 
 .social_icon:nth-child(3) {
   animation: slideUp 1s linear 7.5s forwards;
+  /* opacity: 1; */
 }
 @keyframes slideUp {
   0% {
@@ -491,11 +497,13 @@ main .intro_button:hover {
 .hidden--animation {
   color: #fff;
   opacity: 0;
+  /* opacity: 1; */
 }
 
 .show--animation {
   animation: SlideDownAndBounce 0.4s ease;
   animation-fill-mode: forwards;
+  /* opacity: 1; */
 }
 
 /* TO SHOW THE ELEMENT THAT HAS NO ANIMATION ... ONLY THE OPACITY CHANGES */
@@ -718,7 +726,7 @@ SECTION HEADING DELAY ANIMATION ..
 /*
     ABOUT TEXT
 */
-#about .about_content .about_text_wrapper .description {
+#about .about_content .about_text_wrapper .description{
   font-size: 1rem;
   padding: 10px 0;
   line-height: 25px;
@@ -756,6 +764,7 @@ SECTION HEADING DELAY ANIMATION ..
   height: 400px;
   position: relative;
   opacity: 0;
+  /* opacity: 1; */
 }
 
 .project_item:hover {
@@ -769,7 +778,8 @@ SECTION HEADING DELAY ANIMATION ..
 }
 
 .project_item:nth-child(1),
-.project_item:nth-child(4) {
+.project_item:nth-child(4),
+.project_item:nth-child(7) {
   transform: translateX(-300px);
   animation-delay: 3.2s;
 }
@@ -789,6 +799,8 @@ SECTION HEADING DELAY ANIMATION ..
 .show_project {
   animation: SlideRight 3s ease;
   animation-fill-mode: forwards;
+  /* opacity: 1; */
+
 }
 
 @keyframes SlideRight {
@@ -902,8 +914,8 @@ SECTION HEADING DELAY ANIMATION ..
 
 #contact .contact_text {
   animation-delay: 2.2s;
-  /*     opacity: 0;
- */
+  /* opacity: 0; */
+
 }
 
 /*
