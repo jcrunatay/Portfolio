@@ -785,7 +785,8 @@ SECTION HEADING DELAY ANIMATION ..
 }
 
 .project_item:nth-child(2),
-.project_item:nth-child(5) {
+.project_item:nth-child(5),
+.project_item:nth-child(8){
   transform: translateX(-600px);
   animation-delay: 2.7s;
 }
