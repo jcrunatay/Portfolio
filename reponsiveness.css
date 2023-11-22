@@ -2,14 +2,17 @@
 @media screen and (max-width: 1399px) and (min-width: 768px) {
     .project_item:nth-child(1),
     .project_item:nth-child(3),
-    .project_item:nth-child(5){
+    .project_item:nth-child(5),
+    .project_item:nth-child(7),
+    .project_item:nth-child(9){
         transform: translateX(-300px);
         animation-delay: 2.7s;
     }
 
     .project_item:nth-child(2),
     .project_item:nth-child(4),
-    .project_item:nth-child(6){
+    .project_item:nth-child(6),
+    .project_item:nth-child(8){
         transform: translateX(-600px);
         animation-delay: 2.2s;
     }
