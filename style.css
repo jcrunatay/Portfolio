@@ -786,13 +786,15 @@ SECTION HEADING DELAY ANIMATION ..
 
 .project_item:nth-child(2),
 .project_item:nth-child(5),
-.project_item:nth-child(8){
+.project_item:nth-child(8)
+{
   transform: translateX(-600px);
   animation-delay: 2.7s;
 }
 
 .project_item:nth-child(3),
-.project_item:nth-child(6) {
+.project_item:nth-child(6),
+.project_item:nth-child(9){
   transform: translateX(-900px);
   animation-delay: 2.2s;
 }
